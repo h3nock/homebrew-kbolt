@@ -6,20 +6,20 @@ class Kbolt < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/h3nock/kbolt/releases/download/v0.1.1/kbolt-v0.1.1-macos-aarch64.tar.gz"
-      sha256 "3a81a79756127e503ef7673cecdf240488274100a1ef88adcb9a576b1a8bbafd"
+      url "https://github.com/h3nock/kbolt/releases/download/v0.1.2/kbolt-v0.1.2-macos-aarch64.tar.gz"
+      sha256 "5a07e2a3488323e4d9d6fe41494940ba8bd3bd570b22274964dba5b93dbb7576"
     end
 
     on_intel do
-      url "https://github.com/h3nock/kbolt/releases/download/v0.1.1/kbolt-v0.1.1-macos-x86_64.tar.gz"
-      sha256 "e83dbd8f99a993f852674d43b638c8a77cdaf31eb8727a63841567c63d11b491"
+      url "https://github.com/h3nock/kbolt/releases/download/v0.1.2/kbolt-v0.1.2-macos-x86_64.tar.gz"
+      sha256 "241eb76d2503eab47deb6eae3e95d29f41363cde5ee3b1f506d53b2241c8c625"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/h3nock/kbolt/releases/download/v0.1.1/kbolt-v0.1.1-linux-x86_64.tar.gz"
-      sha256 "4da3ee0706a957b9efbc68d2b47eb55baae9bec417093d6d1807f65745413f78"
+      url "https://github.com/h3nock/kbolt/releases/download/v0.1.2/kbolt-v0.1.2-linux-x86_64.tar.gz"
+      sha256 "78c5027550f0f32e06117f4eab3a4fad29b95aee2535ba13041bd39430ed71c0"
     end
   end
 
