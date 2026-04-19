@@ -2,6 +2,7 @@ class Kbolt < Formula
   desc "Local-first retrieval engine for notes and docs"
   homepage "https://github.com/h3nock/kbolt"
   license "MIT"
+  version "0.1.2"
   depends_on "llama.cpp"
 
   on_macos do
