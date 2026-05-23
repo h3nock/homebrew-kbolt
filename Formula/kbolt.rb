@@ -1,26 +1,26 @@
 class Kbolt < Formula
   desc "Local-first retrieval engine for notes and docs"
   homepage "https://github.com/h3nock/kbolt"
-  version "0.1.6"
+  version "0.1.7"
   license "MIT"
   depends_on "llama.cpp"
 
   on_macos do
     on_arm do
-      url "https://github.com/h3nock/kbolt/releases/download/v0.1.6/kbolt-v0.1.6-macos-aarch64.tar.gz"
-      sha256 "e4459d7f1456f648700d8d37c5b3545e77637e3d340ba855d85fc034d33365fb"
+      url "https://github.com/h3nock/kbolt/releases/download/v0.1.7/kbolt-v0.1.7-macos-aarch64.tar.gz"
+      sha256 "997c57ad2eda565e2a75c037a5abf3be3056967b62585327d40cbe24d96ad9df"
     end
 
     on_intel do
-      url "https://github.com/h3nock/kbolt/releases/download/v0.1.6/kbolt-v0.1.6-macos-x86_64.tar.gz"
-      sha256 "73ddcc5b6b857c11d2e502af24961dd0e7b669b22af85150d7c428ea7247864d"
+      url "https://github.com/h3nock/kbolt/releases/download/v0.1.7/kbolt-v0.1.7-macos-x86_64.tar.gz"
+      sha256 "0a0589527835e08dc545380d2213c2c704f2fa3162e79de3e1c90ea26fdbf04f"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/h3nock/kbolt/releases/download/v0.1.6/kbolt-v0.1.6-linux-x86_64.tar.gz"
-      sha256 "71e42921377acdbbf50e27d864d1dd1d8dc4a0122f434ea20b65b1b07a5f50db"
+      url "https://github.com/h3nock/kbolt/releases/download/v0.1.7/kbolt-v0.1.7-linux-x86_64.tar.gz"
+      sha256 "1d4f45d5babaee1f5b541f48889219feeca45c87366e4f9689b61f7d7eb4a7ac"
     end
   end
 
